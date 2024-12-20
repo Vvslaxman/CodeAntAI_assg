@@ -11,6 +11,7 @@ import {
     XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
 
 const SideBar = () => {
     const [isSideBarVisible, setIsSideBarVisible] = useState(false);
@@ -43,7 +44,13 @@ const SideBar = () => {
         <div className="flex flex-col w-full md:w-64 bg-white md:h-screen border-r relative">
             <div className="flex justify-between md:justify-around w-full px-4 items-center">
                 <div className="flex items-center justify-center gap-4 h-16">
-                    <img src={"/svg/logo.svg"} alt={"logo"} className="w-6" />
+                    {/* <img src={"/svg/logo.svg"} alt={"logo"} className="w-6" /> */}
+                    <motion.img
+                            whileHover={{ rotate: 360 }}
+                            transition={{ duration: 0.5 }}
+                            src={'/svg/logo.svg'}
+                            alt={'logo'}
+                        />
                     <h1 className="font-light text-[25px]">CodeAnt AI</h1>
                 </div>
 
