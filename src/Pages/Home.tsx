@@ -35,7 +35,6 @@ const Home = () => {
                                 </span>
                             </div>
                             <div className={`flex gap-2`}>
-                                {/* Refresh All Button */}
                                 <motion.button
                                     className={`flex text-xs items-center p-2 px-4 gap-2 rounded-md border-2`}
                                     whileHover={{ scale: 1.05 }}
@@ -45,8 +44,7 @@ const Home = () => {
                                     <ArrowPathIcon className={`size-4`} />
                                     Refresh All
                                 </motion.button>
-
-                                {/* Add Repository Button */}
+                                
                                 <motion.button
                                     className={`flex text-xs items-center p-2 px-4 gap-2 bg-[#1570EF] text-white rounded-md`}
                                     whileHover={{ scale: 1.05 }}
