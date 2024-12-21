@@ -69,7 +69,7 @@ repository-management-dashboard/
 └── README.md
 ```
 
-## Framer Motion Integrated - mainly at Signup page at various components including CodeAnt AI logo and other Signup options too
+## Framer Motion Integrated - mainly in Signup page at various components including CodeAnt AI logo and other Signup options too
 
 ## Contributing
 1. Fork the repository.
