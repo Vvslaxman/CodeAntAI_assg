@@ -9,6 +9,7 @@ This project is a **Repository Management Dashboard** built with **React + TypeS
 - Framer Motion animations on interactive buttons.
 - Fully Responsive design with a modern UI.
 - Immersive UI experience.
+- Search functionality of dashboards page
 
 
 ## Tech Stack
@@ -68,7 +69,7 @@ repository-management-dashboard/
 └── README.md
 ```
 
-## Framer Motion Integration
+## Framer Motion Integrated - mainly at Signup page at various components including CodeAnt AI logo and other Signup options too
 
 ## Contributing
 1. Fork the repository.
