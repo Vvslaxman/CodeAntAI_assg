@@ -17,8 +17,6 @@ This project is a **Repository Management Dashboard** built with **React + TypeS
 - **Animations**: Framer Motion
 - **Icons**: Heroicons
 
-## Installation
-
 ### Prerequisites:
 - Node.js (>= 16.x.x)
 - npm or yarn
